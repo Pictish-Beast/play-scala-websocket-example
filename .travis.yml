@@ -15,5 +15,7 @@ notifications:
     secure: MXiGfzhp5a9/rUs1sOZXapwWHVlNjxwtyIIOrmfWbHs5pQ9yF+BYrOKTmip1c8rOJuvXGFGDjifQDoC/rJ6GuKZAV/IHbcngKrYbCD1fC+xE5PnNWjVfpj2TUc2wZujX5s7wdz99RlEtXmShpwp4wGIRFsfBpCPg8DmQBbuOzyc=
 deploy:
   provider: heroku
+  on:
+    all_branches: true
   api_key:
     secure: "e276efa7-8618-4b9f-8ae2-76b3b7b469bd"
